@@ -49,8 +49,8 @@ class TripLogger {
     document.querySelector(".startBtn").addEventListener("click", startOdometer);
     document.querySelector(".endBtn").addEventListener("click", endOdometer);
     document.querySelector(".saveBtn").addEventListener("click", saveTrip);
-    // document.querySelector(".tripType").classList.add("hide");
-    // document.querySelector(".saveBtn").classList.add("hide");
+    document.querySelector(".tripType").classList.add("hide");
+    document.querySelector(".saveBtn").classList.add("hide");
     document.querySelector("main").classList.add("hide");
 
     function openApp() {
@@ -91,8 +91,8 @@ class TripLogger {
         clearInterval(interval);
         odometer2Read = odometer.innerHTML;
         // console.log(`end: ${odometer2Read}`);
-        // document.querySelector(".tripType").classList.remove("hide");
-        // document.querySelector(".saveBtn").classList.remove("hide");    
+        document.querySelector(".tripType").classList.remove("hide");
+        document.querySelector(".saveBtn").classList.remove("hide");    
     }
 
     function saveTrip(event) {
@@ -115,6 +115,8 @@ class TripLogger {
         tripLog.addTrip(newTrip);
         tripLog.showTrips();
         // document.querySelector(".odometer").classList.add("hide");
-        // document.querySelector(".tripType").classList.add("hide");
-        // document.querySelector(".saveBtn").classList.add("hide");
+        document.querySelector(".tripType").classList.add("hide");
+        document.querySelector(".saveBtn").classList.add("hide");
+        document.getElementById("business").checked = false;
+        document.getElementById("personal").checked = false;
     }
