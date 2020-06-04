@@ -1,0 +1,142 @@
+.hide {
+    display: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.iconBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 125px;
+    width: 125px;
+    background-color: black;
+    border-radius: 10px;
+    border: 4px double lightgray;
+    /* padding: 8px; */
+    margin: 20px;
+    color: white;
+}
+
+.iconImg {
+    border-radius: 10px;
+    width: 110px;
+}
+
+main {
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-right: 20px;    
+    border: 1px dashed lightgray;
+}
+
+.backArrow {
+    color: white;
+    margin-right: 50px;
+    margin-left: 8px;
+    border-right: 1px dashed lightgray;
+    padding-right: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.bodySection {
+    background-color: aquamarine;
+    border: 8px double lightgray;
+    margin-right: 20px;
+    margin-top: 2px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    color: black;
+}
+
+.trackingSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* height: 185px;  */
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.btnDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* margin-right: 20px; */
+    margin-top: 20px;
+}
+
+.odometerDiv {
+    /* margin-right: 20px;  */
+    /* position: relative; */
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+div {
+    font-size: 18px;
+}
+
+button {
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    margin-bottom: 5px;
+}
+
+.saveBtn {
+    margin-top: 30px;
+    height: 60px;
+}
+
+.odometer, #business, #personal {
+    font-size: 24px;
+}
+
+ul {
+    margin-left: 0px;
+    padding-inline-start: 0px;
+}
+
+li {
+    padding: 5px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    margin-right: 40px;
+    margin-left: 0px;
+    border: 3px solid white;
+    border-radius: 10px;
+    list-style-type: none;
+}
+

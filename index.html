@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Trip Logger</title>
+</head>
+
+<body>
+
+    <section class="landingSection">
+        <div class="iconBtn">
+            <img src="/images/counter-icon-24.png" class="iconImg">
+            <p>Trip Logger</p>
+        </div>
+    </section>
+
+    <main>
+        <div class="header">
+            <div class="backBtn">
+                <img src="/images/back-arrow.png" class="backArrow">
+            </div>
+            <h1>Trip Logger</h1>
+        </div>
+
+        <section class="bodySection">
+
+            <h2>Track Your Trip</h2>
+            <section class="trackingSection">
+                <div class="btnDiv">
+                    <button class="startBtn">Start Trip</button>
+                    <button class="endBtn">End Trip</button>
+                </div>
+                <div class="odometerDiv">
+                    <h3>Odometer</h3>
+                    <div class='odometer'>0.0</div>
+                </div>
+                <form class="tripType">
+                    <h3>Select Trip Type</h3>
+                    <div class="radioDiv">
+                        <label for="business">
+                        <input type="radio" name="choice" class="choice" id="business" value="Business">Business
+                        </label>
+                        <label for="personal">
+                        <input type="radio" name="choice" class="choice" id="personal" value="Personal">Personal
+                        </label>
+                    </div>
+                </form>
+                <button class="saveBtn">Save Trip</button>
+            </section>
+
+            <section class="logSection">
+                <h2>Trip Log</h2>
+                <ul class="list"></ul>
+            </section>
+        </section>
+    </main>
+
+    <script src='script.js'></script>
+</body>
+
+</html>
